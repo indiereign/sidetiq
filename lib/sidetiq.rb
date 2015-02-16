@@ -61,6 +61,6 @@ module Sidetiq
   end
 end
 
-if Sidekiq.server?
-  Sidetiq::Supervisor.run!
-end
+# if Sidekiq.server?
+#   Sidetiq::Supervisor.run!
+# end
